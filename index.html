@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EchoRoom</title>
+</head>
+<body>
+    <h1>Welcome to EchoRoom</h1>
+    <button id="createRoom">Create Room</button>
+    <input type="text" id="inviteCode" placeholder="Enter Invite Code">
+    <button id="joinRoom">Join Room</button>
+
+    <div id="roomControls" style="display:none;">
+        <h2>Room ID: <span id="roomId"></span></h2>
+        <div id="spotifyControls">
+            <input type="text" id="songSearch" placeholder="Search Song">
+            <button id="selectSong">Select Song</button>
+        </div>
+    </div>
+
+    <script src="/main.js"></script>
+</body>
+</html>

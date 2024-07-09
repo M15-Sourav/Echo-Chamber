@@ -1,0 +1,17 @@
+{
+    "name": "echo-chamber",
+    "version": "1.0.0",
+    "description": "A real-time audio streaming application with Spotify integration",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "author": "Sourav an d Mari",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.19.2",
+        "querystring": "^0.2.1",
+        "request": "^2.88.2",
+        "ws": "^7.5.10"
+    }
+}
